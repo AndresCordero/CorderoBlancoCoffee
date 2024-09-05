@@ -17,7 +17,8 @@ li {
 /*##################### HEADER ########################*/
 
 #header {
-    width: 1920px;
+    width: 100%;
+    max-width: 1920px;
     height: 140px;
     position: relative;
     z-index: 1;
@@ -63,7 +64,7 @@ li {
     color: black;
     transform: translate(-50%, -50%);
     top: 30%;
-    left: 87%;
+    left: 85%;
 }
 
 .cart {
@@ -78,8 +79,9 @@ li {
 
 /*##################### MAIN GLOBAL ########################*/
 
-#main {
-    width: 1920px;
+#main_index {
+    width: 100%;
+    max-width: 1920px;
     height: auto;
     background-color: rgb(39, 23, 23);
 }
@@ -103,56 +105,69 @@ li {
 
 #newsimgs {
     display: flex;
-    width: 1920;
+    width: 100%;
     height: auto;
     justify-content: center;
     align-items: center;
-    justify-content: space-between;
-    margin: 250px 65px 0 65px;
-    vertical-align: text-bottom;
+    gap: 35px;
+    margin-top: 220px;
 }
 
-.newsimg1 {
-    width: 550px;
-    height: auto;
-    border-radius: 4%;
-}
-
-.newsimg2 {
-    width: 550px;
-    height: auto;
-    border-radius: 4%;
-}
-
-.newsimg3 {
-    width: 550px;
+#newsimgs img {
+    width: 30%;
     height: auto;
     border-radius: 4%;
 }
 
 #newslorems {
     display: flex;
+    width: 100%;
+    height: auto;
     justify-content: center;
-    align-items: start;
-    margin: 30px 65px 0 65px;
-    justify-content: space-between;
-    font-size: 20px;
+    align-items: center;
+    gap: 35px;
+    padding: 20px 0 120px;
 }
 
-.lorem1 {
+#newslorems h2 {
     color: white;
-    width: 550px;
+    width: 30%;
+    text-align: justify;
 }
 
-.lorem2 {
-    color: white;
-    width: 550px;
+
+@media screen and (max-width: 425px) {
+
+    #home_image {
+        width: 100%;
+        height: 100%;
+    }
+
+    #home_image img {
+        display: flex;
+        width: 100%;
+        height: auto;
+        justify-content: center;
+        border-radius: 3%;
+    }
+
+    #newsimgs {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        margin-left: 5px;
+        margin-top: 40px;
+        justify-content: space-between 400px;
+    }
+
+    #newsimgs img {
+        width: 100%;
+        justify-content: space-between 400px;
+
+    }
 }
 
-.lorem3 {
-    color: white;
-    width: 550px;
-}
+
 
 /*############  MAIN CONTACT  ##################*/
 
@@ -265,7 +280,7 @@ li {
     background-color: rgb(39, 23, 23);
     width: 1920px;
     height: auto;
-    
+
 }
 
 #galery {
@@ -347,7 +362,8 @@ li {
 
     #galery img {
         padding-top: 20px;
-     }
+    }
+
     #galery .img1 {
         grid-column: 1/2;
         grid-row: 1/2;
@@ -427,7 +443,8 @@ li {
 /*##################### FOOTER #######################*/
 
 #footer {
-    width: 1920px;
+    width: 100%;
+    max-width: 1920px;
     height: 100%;
     background-color: rgb(211, 209, 209);
     display: list-item;
@@ -461,6 +478,7 @@ li {
 
 @media screen and (max-width: 480px) {
     #footer {
+        max-width: 100vh;
         flex-direction: column;
         justify-content: center;
         width: auto;
