@@ -112,7 +112,7 @@ li {
     display: flex;
     height: 800px;
     justify-content: center;
-    align-items: first baseline;
+    align-items: baseline;
 }
 
 .home_image1 {
@@ -127,12 +127,14 @@ li {
     width: 100%;
     height: auto;
     margin-top: 270px;
+    align-items: top;
 }
+
 
 #news_section img {
     border-radius: 4%;
+    align-items: start;   
 }
-
 
 #news_section h2 {
     text-align: justify;
@@ -145,14 +147,9 @@ li {
 #news_section .new_1, .new_2, .new_3 {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     margin-bottom: 100px;
 }
-
-
-
-
 
 
 
