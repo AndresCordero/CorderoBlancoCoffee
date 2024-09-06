@@ -98,7 +98,7 @@ li {
 
 .home_image1 {
     margin-top: 90px;
-    width: 1300px;
+    width: 70%;
     height: auto;
     border-radius: 3%;
 }
@@ -132,7 +132,11 @@ li {
 
 
 
-/* @media screen and (max-width: 425px) {
+
+
+
+
+@media screen and (max-width: 480px) {
 
     #home_image {
         width: 100%;
@@ -147,20 +151,29 @@ li {
         border-radius: 3%;
     }
 
-    #newsimgs {
-        width: 50%;
+    #news_section {
         display: flex;
-        flex-direction: column;
-        margin-left: 5px;
-        margin-top: 40px;
-        justify-content: space-between 400px;
-    }
-
-    #newsimgs img {
         width: 100%;
-        justify-content: space-between;
+        height: auto;
+        margin-top: 70px;
+        flex-direction: column;
     }
-} */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*############  MAIN CONTACT  ##################*/
 
 #main_contact {
