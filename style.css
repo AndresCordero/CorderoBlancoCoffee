@@ -9,7 +9,8 @@
     max-width: 1920px;
 }
 
-ul, li {
+ul,
+li {
     display: inline-block;
 }
 
@@ -27,6 +28,7 @@ ul, li {
 .navbar-navbar-expand-lg-bg-body-tertiary {
     background-color: rgb(211, 209, 209);
 }
+
 #navbar__index {
     width: 100%;
     height: 100%;
@@ -50,7 +52,7 @@ ul, li {
     transition: 1s;
 }
 
-.navbar__index-ul li a:hover{
+.navbar__index-ul li a:hover {
     margin: 10px;
     border-radius: 10px;
     transition: 1s;
@@ -117,7 +119,7 @@ ul, li {
 
 #news_section img {
     border-radius: 4%;
-    align-items: start;   
+    align-items: start;
 }
 
 #news_section h2 {
@@ -125,18 +127,20 @@ ul, li {
     color: white;
     margin-top: 4%;
 }
-#news_section img, h2 {
+
+#news_section img,
+h2 {
     width: 90%;
 }
 
-#news_section .new_1, .new_2, .new_3 {
+#news_section .new_1,
+.new_2,
+.new_3 {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-bottom: 100px;
 }
-
-
 
 @media screen and (max-width: 480px) {
 
@@ -162,15 +166,13 @@ ul, li {
     }
 }
 
-
-
 #main__shop {
     background-color: rgb(39, 23, 23);
     color: white;
-    height: auto; 
+    height: auto;
 }
 
-#main__shop h1{
+#main__shop h1 {
     padding: 7% 0 7%;
     display: flex;
     justify-content: center;
@@ -186,122 +188,26 @@ ul, li {
 .carousel-item img {
     width: 100%;
     height: 1000px;
-    object-fit:cover;}
-
-
-
-
-
-/*############  MAIN CONTACT  ##################*/
-
-#main_contact {
-    width: 1920px;
-    height: auto;
-    background-color: rgb(39, 23, 23);
-    display: flex;
-    flex-direction: column;
+    object-fit: cover;
 }
 
-#title_contact h1 {
-    display: flex;
-    color: white;
-    justify-content: center;
-    font-size: 45px;
-    margin: 100px 0 100px;
-}
 
-#contact_content {
-    display: flex;
-    width: 100%;
-    height: 100%;
-    color: white;
-    justify-content: center;
-}
 
-.contact_map {
-    width: 50%;
-    height: 50%;
-    display: flex;
-    flex-direction: column;
-    margin-top: 100px;
-}
 
-.map {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-}
 
-.map_description {
-    width: 50%;
-    Display: flex;
-    justify-content: center;
-    color: white;
-}
+/*##############   MAIN SHOP  ##################*/
 
-.contact_form {
-    height: 50%;
-}
 
-.contact_form h2 {
-    color: white;
-    font-size: 30px;
-}
+/*##############  MAIN COMBO DEALS  ##################*/
 
-.contact_form input {
-    margin-bottom: 20px;
-    font-size: 28px;
-    width: 600px;
-    height: 58px;
-}
 
-.contact_form textarea {
-    resize: none;
-    font-size: 28px;
-    width: 600px;
-    height: 258px;
-}
-
-.form_bottons {
-    display: flex;
-    justify-content: center;
-}
-
-.form_bottons input {
-    width: 50%;
-    border-radius: 40px 0 40px;
-    margin: 20px 0 25px;
-    background-color: rgb(211, 209, 209);
-}
-
-.contact_social {
-    font-size: 90px;
-    color: black;
-    display: flex;
-    height: 100%;
-    width: 100%;
-    background-image: url(../images/cover6.jpg);
-    background-repeat: no-repeat;
-    background-position: bottom;
-    background-size: cover;
-}
-
-.contact_social div {
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-    justify-content: center;
-    align-items: center;
-    vertical-align: auto;
-}
-
-/* ###################### MAIN GALERY ################# */
+/* ############# MAIN KNOW OUR FARM ################# */
 
 #main_gallery {
     display: flex;
     justify-content: center;
     background-color: rgb(39, 23, 23);
-    width: 1920px;
+    width: 100%;
     height: auto;
 }
 
@@ -439,8 +345,8 @@ ul, li {
 
 /*############  MAIN CONTACT  ##################*/
 
-#main_contact {
-    width: 1920px;
+#main__contact {
+    width: 100%;
     height: auto;
     background-color: rgb(39, 23, 23);
     display: flex;
@@ -459,74 +365,111 @@ ul, li {
     display: flex;
     width: 100%;
     height: 100%;
-    color: white;
     justify-content: center;
 }
 
-.contact_map {
+#contact_map,
+#contact-form {
     width: 50%;
-    height: 50%;
+    height: auto;
     display: flex;
     flex-direction: column;
     margin-top: 100px;
+    margin: 0 5% 0 5%;
 }
 
 .map {
+    width: 100%;
+    height: 100%;
     display: flex;
-    justify-content: center;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .map_description {
-    width: 50%;
+    width: 100%;
     Display: flex;
     justify-content: center;
     color: white;
     text-align: justify;
 }
 
-.contact_form {
-    height: 50%;
-}
-
-.contact_form h2 {
-    color: white;
-    font-size: 30px;
-}
-
-.contact_form input {
-    margin-bottom: 20px;
-    font-size: 28px;
-    width: 600px;
-    height: 58px;
-}
-
-.contact_form textarea {
-    resize: none;
-    font-size: 28px;
-    width: 600px;
-    height: 258px;
-}
-
-.form_bottons {
+.contact-form_form {
+    width: 100%;
+    padding: 0 20% 0 20%;
+    height: auto;
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    color: white;
 }
 
-.form_bottons input {
-    width: 50%;
-    border-radius: 40px 0 40px;
-    margin: 20px 0 25px;
-    background-color: rgb(211, 209, 209);
+.contact-form_form input:hover, textarea:hover {
+    padding-bottom: 12px;
 }
+
+.contact-form_form h2 {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.contact-form_button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+}
+
+.btn41-43 {
+    padding: 10px 25px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    background: transparent;
+    outline: none !important;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+}
+
+.btn-43 {
+    border: 2px solid rgb(255, 255, 255);
+    z-index: 1;
+    color: white;
+}
+
+.btn-43:after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background: rgb(255, 255, 255);
+    transition: all 0.3s ease;
+}
+
+.btn-43:hover {
+    color: rgb(0, 0, 0);
+}
+
+.btn-43:hover:after {
+    top: auto;
+    bottom: 0;
+    height: 100%;
+}
+
+
 
 .contact_social {
-    font-size: 90px;
+    font-size: 10px;
     color: black;
     display: flex;
     height: 100%;
     width: 100%;
-    background-image: url(../images/cover6.jpg);
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: cover;
@@ -579,7 +522,9 @@ ul, li {
 }
 
 
-#footer__footer .footer__logo, .footer__nav, .footer__social  {
+#footer__footer .footer__logo,
+.footer__nav,
+.footer__social {
     display: flex;
     width: 30%;
     justify-content: center;
@@ -617,7 +562,7 @@ ul, li {
         justify-content: left;
         margin-top: 4%;
     }
-    
-} 
+
+}
 
 /*###################################################*/
