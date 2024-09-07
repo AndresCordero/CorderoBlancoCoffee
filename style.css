@@ -498,6 +498,12 @@ ul, li {
         justify-content: center;
         width: auto;
     }
+
+    .footer__logo img {
+        display: flex;
+        width: 200%;
+        justify-content: left;
+    }
 } 
 
 /*###################################################*/
