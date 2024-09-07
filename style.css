@@ -6,6 +6,7 @@
     font-style: none;
     font-family: "Lato", sans-serif;
     color: black;
+    max-width: 1920px;
 }
 
 ul, li {
@@ -19,8 +20,6 @@ ul, li {
     width: 100%;
     max-width: 1920px;
     height: 140px;
-    position: relative;
-    z-index: 1;
 
 }
 
@@ -456,54 +455,49 @@ ul, li {
 
 /*##################### FOOTER #######################*/
 
-#footer {
+#footer__footer {
     width: 100%;
     max-width: 1920px;
-    height: 100%;
+    height: auto;
     background-color: rgb(211, 209, 209);
-    display: list-item;
     display: flex;
     justify-content: center;
     justify-content: space-between;
     align-items: center;
 }
 
-.footer_logo img {
-    width: 260px;
-    height: 110px;
-    margin: 15px;
-}
 
-#footer .footer_nav ul {
+#footer__footer .footer__logo, .footer__nav, .footer__social  {
     display: flex;
+    width: 30%;
+    justify-content: center;
+}
+
+.footer__logo img {
+    width: 50%;
+    margin-right: 40%;
+    justify-content: center;
+}
+
+.ul__footer {
+    display: flex;
+    margin: none;
+    justify-content: center;
     flex-direction: column;
-    font-size: 21px;
+    margin-top: 5%;
 }
 
-#footer .footer_nav ul a:hover{
-    margin: 10px;
-    border-radius: 10px;
-    transition: 1s;
-    font-size: 25px;
+.footer__social a {
+    font-size: 40px;
+    margin: 0 3% 0 3%;
 }
 
-.footer_social {
-    font-size: 60px;
-    margin-right: 40px;
-}
-
-.footer_social a {
-    margin-left: 15px;
-}
-
-
-@media screen and (max-width: 480px) {
-    #footer {
-        max-width: 100vh;
+@media screen and (max-width: 600px) {
+    #footer__footer {
         flex-direction: column;
         justify-content: center;
         width: auto;
     }
-}
+} 
 
 /*###################################################*/
