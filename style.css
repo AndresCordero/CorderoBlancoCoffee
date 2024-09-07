@@ -130,6 +130,7 @@ ul, li {
 #news_section h2 {
     text-align: justify;
     color: white;
+    margin-top: 4%;
 }
 #news_section img, h2 {
     width: 90%;
@@ -293,7 +294,6 @@ ul, li {
     background-color: rgb(39, 23, 23);
     width: 1920px;
     height: auto;
-
 }
 
 #galery {
@@ -503,7 +503,9 @@ ul, li {
         display: flex;
         width: 200%;
         justify-content: left;
+        margin-top: 4%;
     }
+    
 } 
 
 /*###################################################*/
