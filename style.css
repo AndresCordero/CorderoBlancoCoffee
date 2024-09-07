@@ -395,6 +395,7 @@ h2 {
     text-align: justify;
 }
 
+
 .contact-form_form {
     width: 100%;
     padding: 0 20% 0 20%;
@@ -405,7 +406,8 @@ h2 {
     color: white;
 }
 
-.contact-form_form input:hover, textarea:hover {
+.contact-form_form input:hover,
+textarea:hover {
     padding-bottom: 12px;
 }
 
@@ -462,27 +464,37 @@ h2 {
     height: 100%;
 }
 
-
-
-.contact_social {
-    font-size: 10px;
-    color: black;
-    display: flex;
-    height: 100%;
+#contact-image {
     width: 100%;
-    background-repeat: no-repeat;
-    background-position: bottom;
-    background-size: cover;
+    height: auto;
+    object-fit: cover;
+
 }
 
-.contact_social div {
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-    justify-content: center;
-    align-items: center;
-    vertical-align: auto;
+#contact-image img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    margin-top: 50px;
+
 }
+
+@media screen and (max-width: 768px) {
+    #main__contact {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #contact_content, .contact_map, .contact-form {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }   
+}
+
+
 
 
 
@@ -519,6 +531,7 @@ h2 {
     justify-content: center;
     justify-content: space-between;
     align-items: center;
+
 }
 
 
@@ -549,7 +562,7 @@ h2 {
     margin: 0 3% 0 3%;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
     #footer__footer {
         flex-direction: column;
         justify-content: center;
