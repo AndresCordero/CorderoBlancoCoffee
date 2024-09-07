@@ -482,6 +482,7 @@ ul, li {
     Display: flex;
     justify-content: center;
     color: white;
+    text-align: justify;
 }
 
 .contact_form {
