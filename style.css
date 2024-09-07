@@ -437,6 +437,108 @@ ul, li {
 }
 
 
+/*############  MAIN CONTACT  ##################*/
+
+#main_contact {
+    width: 1920px;
+    height: auto;
+    background-color: rgb(39, 23, 23);
+    display: flex;
+    flex-direction: column;
+}
+
+#title_contact h1 {
+    display: flex;
+    color: white;
+    justify-content: center;
+    font-size: 45px;
+    margin: 100px 0 100px;
+}
+
+#contact_content {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    color: white;
+    justify-content: center;
+}
+
+.contact_map {
+    width: 50%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.map {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.map_description {
+    width: 50%;
+    Display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.contact_form {
+    height: 50%;
+}
+
+.contact_form h2 {
+    color: white;
+    font-size: 30px;
+}
+
+.contact_form input {
+    margin-bottom: 20px;
+    font-size: 28px;
+    width: 600px;
+    height: 58px;
+}
+
+.contact_form textarea {
+    resize: none;
+    font-size: 28px;
+    width: 600px;
+    height: 258px;
+}
+
+.form_bottons {
+    display: flex;
+    justify-content: center;
+}
+
+.form_bottons input {
+    width: 50%;
+    border-radius: 40px 0 40px;
+    margin: 20px 0 25px;
+    background-color: rgb(211, 209, 209);
+}
+
+.contact_social {
+    font-size: 90px;
+    color: black;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background-image: url(../images/cover6.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+}
+
+.contact_social div {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    vertical-align: auto;
+}
 
 
 
