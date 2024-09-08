@@ -495,12 +495,11 @@ textarea:hover {
     }   
 
 
-    .map {
-        max-width:100vh;
-        height: fit-content;
-        justify-content: center;
+    .map map {
+        width: 100px;
+        height: 100px;
     }
-    
+
     .contact-form_form {
         padding: 0%;
     }
