@@ -212,8 +212,46 @@ h2 {
 }
 
 
-
 /*##############  MAIN COMBO DEALS  ##################*/
+
+
+#main-ComboDeals {
+    min-height: 1200px;
+    background-color: rgb(39, 23, 23);
+}
+
+#accordionPanelsStayOpenExample {
+
+    background-color: rgb(39, 23, 23);
+    
+}
+
+#panelsStayOpen-collapseOne, #panelsStayOpen-collapseTwo, #panelsStayOpen-collapseThree {
+    width: 100%;
+    height: auto;
+    color: white;
+    background-color: rgb(39, 23, 23);
+}
+
+
+.accordion-body strong {
+    color: white;
+    font-size: 40px;
+    justify-content: center;
+}
+
+.accordion-header button {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+
 
 
 /* ############# MAIN KNOW OUR FARM ################# */
