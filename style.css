@@ -237,7 +237,6 @@ img {
     max-width: 95%;
 }
 
-
 .accordion-body strong {
     color: white;
     font-size: 40px;
@@ -466,6 +465,7 @@ img {
 .contact-form_form input:hover,
 textarea:hover {
     padding-bottom: 12px;
+    transition: .75s;
 }
 
 .contact-form_form h2 {
