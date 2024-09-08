@@ -483,6 +483,7 @@ textarea:hover {
     #main__contact {
         display: flex;
         flex-direction: column;
+        width: 100%;
     }
 
     #contact_content, .contact_map, .contact-form {
@@ -492,8 +493,18 @@ textarea:hover {
         justify-content: center;
         align-items: center;
     }   
-}
 
+
+    .map {
+        max-width:100vh;
+        height: fit-content;
+        justify-content: center;
+    }
+    
+    .contact-form_form {
+        padding: 0%;
+    }
+}
 
 
 
