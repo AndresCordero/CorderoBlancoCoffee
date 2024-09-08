@@ -233,6 +233,10 @@ h2 {
     background-color: rgb(39, 23, 23);
 }
 
+img {
+    max-width: 95%;
+}
+
 
 .accordion-body strong {
     color: white;
