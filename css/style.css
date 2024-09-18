@@ -89,11 +89,15 @@ ul, li {
 #header .img-logo {
   width: 90px;
 }
-#header .navbar-nav .nav-item:hover {
-  padding-top: 2px;
-  border-color: black;
-  text-color: white;
-  transition: 0.5s;
+#header .navbar-item {
+  transition: 0.7s;
+}
+#header .nav-item:hover {
+  transition: 0.7s;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+  background-color: rgb(230, 230, 230);
 }
 
 #footer__footer {
