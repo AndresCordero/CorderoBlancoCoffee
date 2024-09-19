@@ -11,7 +11,61 @@ ul, li {
   display: inline-block;
 }
 
-@media screen and (max-width: 600px) {
+/* ########## INDEX ########## */
+@media screen and (max-width: 992px) {
+  #main-index img {
+    width: 90%;
+    margin-top: 35px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+  }
+  #main-index .main-index_image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+  }
+  .display-1 {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-weight: bolder;
+  }
+  .news-section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 70px;
+  }
+  .news-section img {
+    border-radius: 4%;
+    width: 90%;
+  }
+  .news-section h3 {
+    text-align: justify;
+    color: white;
+    margin-top: 4%;
+    width: 90%;
+  }
+  .news-section .new_1, .news-section .new_2, .news-section .new_3 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 30px;
+  }
+}
+/*         #news-section {
+            flex-direction: column;
+
+            .new_1, .new_2, .new_3 {
+                display: flex; 
+                align-items: center; flex-direction: column;
+                margin-bottom: 10px;}
+
+
+        } */
+@media screen and (max-width: 992px) {
   #footer__footer {
     flex-direction: column;
     justify-content: center;
@@ -149,7 +203,7 @@ ul, li {
     margin-top: 4%;
   }
 }
-#main_index {
+#main-index {
   background-color: rgb(39, 23, 23);
   display: flex;
   width: 100%;
@@ -159,21 +213,22 @@ ul, li {
   flex-direction: column;
   max-width: 1920px;
 }
-#main_index #main_index-image {
+#main-index #main-index_image {
   display: flex;
   width: 100%;
   height: auto;
   justify-content: center;
   align-items: center;
   align-items: baseline;
+  margin-bottom: 20px;
 }
-#main_index #main_index-image img {
+#main-index #main-index_image img {
   width: 70%;
   margin-top: 90px;
   border-radius: 3%;
 }
 
-#news_section {
+#news-section {
   display: flex;
   width: 100%;
   height: auto;
@@ -182,17 +237,17 @@ ul, li {
   margin-top: 170px;
   align-items: flex-start;
 }
-#news_section img {
+#news-section img {
   border-radius: 4%;
   width: 90%;
 }
-#news_section h2 {
+#news-section h3 {
   text-align: justify;
   color: white;
   margin-top: 4%;
   width: 90%;
 }
-#news_section .new_1, #news_section .new_2, #news_section .new_3 {
+#news-section .new_1, #news-section .new_2, #news-section .new_3 {
   display: flex;
   align-items: center;
   flex-direction: column;

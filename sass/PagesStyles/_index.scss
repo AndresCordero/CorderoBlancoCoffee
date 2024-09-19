@@ -7,15 +7,16 @@
     align-items: center;
 }
 
-#main_index {
+#main-index {
     background-color: $bg-color;
     @include center;
     flex-direction: column;
     max-width: 1920px;
 
-    #main_index-image {
+    #main-index_image {
         @include center;
         align-items: baseline;
+        margin-bottom: 20px;
             img {
                 width: 70%;
                 margin-top: 90px; border-radius: 3%;
@@ -23,13 +24,13 @@
     }
 }
 
-#news_section {
+#news-section {
     @include center;
     margin-top: 170px;
     align-items: flex-start;
         img {
             border-radius: 4%; width: 90% }
-        h2 {
+        h3 {
             text-align: justify;
             color: white; margin-top: 4%; width: 90%}
         .new_1, .new_2, .new_3 {
@@ -37,4 +38,6 @@
             align-items: center; flex-direction: column;
             margin-bottom: 100px;}
 }
+
+
 
