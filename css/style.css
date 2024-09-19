@@ -59,7 +59,9 @@ ul, li {
     margin-top: 4%;
     width: 90%;
   }
-  #main-index .news-section .new_1, #main-index .news-section .new_2, #main-index .news-section .new_3 {
+  #main-index .news-section .new_1,
+  #main-index .news-section .new_2,
+  #main-index .news-section .new_3 {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -73,13 +75,19 @@ ul, li {
     justify-content: center;
     width: auto;
   }
-  #footer__footer .footer__logo img {
+  #footer__footer .footer__logo {
     display: flex;
     justify-content: center;
     margin: 15px 0 15px;
     width: 100%;
   }
-  #footer__footer .footer__nav li a {
+  #footer__footer .footer__logo img {
+    width: 150%;
+  }
+  #footer__footer .footer__nav {
+    min-width: 150px;
+  }
+  #footer__footer li a {
     text-decoration: none;
     color: black;
     text-align: center;
