@@ -61,6 +61,25 @@
     }
 }
 
+
+/*################ Shop ################*/
+
+@media screen and (max-width: 992px) {
+
+    #main_shop {
+    #carousel_shop {
+        width: 100px;
+        height: 100px;
+        max-height: 800px;
+        justify-content: center;
+        margin-bottom: 300px;
+            .carousel-item {
+                img {height: 100px; object-fit: cover;}
+    }
+    } 
+}
+}
+
 /*################## Footer################ */
 
 @media screen and (max-width: 992px) {
