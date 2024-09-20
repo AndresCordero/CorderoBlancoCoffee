@@ -17,105 +17,97 @@
         href="https://fonts.googleapis.com/css2?family=Amaranth:ital,wght@0,400;0,700;1,400;1,700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
         rel="stylesheet">
 
-    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../css/style.css">
     <title> Cordero Blanco Coffee</title>
 </head>
 
 <!--###############################  HEADER  ########################################-->
 
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <header id="header">
+        <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
-
-                <a class="navbar-brand" href="../index.html">Cordero Blanco Coffee</a>
-                <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarNav" aria-expanded="false"
-                    aria-label="Toggle navigation">
+                <a class="navbar-brand" href="../index.html">
+                    <img class="img-logo" src="../icons/Icon_CorderoBlanco.png" alt="Cordero Blanco Coffee Logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse.navbar-collapse" id="navbarSupportedContent">
-                    <div class="collapse.navbar-collapse flex-column justify-content-end" id="navbarSupportedContent">
-
-                        <div class="container navbar-nav d-flex justify-content-end">
-                            <form class=" d-flex justify-content-end" role="search">
-                                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                                <button class="btn btn-outline-success" type="submit">Search</button>
-                            </form>
-                        </div>
-                        <div class="container p-0 d-flex justify-content-start">
-                            <ul class="navbar-nav">
-                                <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="shop.html">Shop</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="../pages/combo_deals.html">Combo Deals</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="../pages/know_our_farm.html">Know our Farm</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="../pages/contact.html">Contact</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="../index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="shop.html">Shop</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pages/combo_deals.html">Combo Deals</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pages/know_our_farm.html">Know our Farm</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pages/contact.html">Contact</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-dark" type="submit">Search</button>
+                    </form>
                 </div>
             </div>
         </nav>
     </header>
 
-    <!--##############################  MAIN  ########################################-->
+    <!--##############################  MAIN SHOP ########################################-->
 
-    <main id="main__shop">
-        <h1>Our productos to prepare the best coffee ever</h1>
-    
-        <div id="boxcarousel">
+    <main id="main-shop">
+        <h1 class="main-shop_title">All you need to prepare the best coffee ever</h1>
 
-            <div id="carouselExampleIndicators" class="carousel slide">
+
+
+        <div class="d-flex justify-content-center object-fit-cover">
+            <div id="carousel_shop" class="carousel slide" data-bs-ride="carousel">
+
+                <!-- pages indicators -->
                 <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-                        aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                        aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                        aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carousel_shop" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#carousel_shop" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel_shop" data-bs-slide-to="2"></button>
+                    <button type="button" data-bs-target="#carousel_shop" data-bs-slide-to="3"></button>
                 </div>
+
+
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="../images/Shop/shop_1.jpg" class="d-block w-100" alt="chemex">
+                        <img src="../images/Shop/shop_1.jpg" alt="chemex" class="d-block" style="width:100%">
                     </div>
                     <div class="carousel-item">
-                        <img src="../images/Shop/shop_2.jpg" class="d-block w-100" alt="Gray plunger pot">
+                        <img src="../images/Shop/shop_2.jpg" alt="Gray plunger pot" class="d-block" style="width:100%">
                     </div>
                     <div class="carousel-item">
-                        <img src="../images/Shop/shop_3.jpg" class="d-block w-100" alt="Black plunger pot">
+                        <img src="../images/Shop/shop_3.jpg" alt="Black plunger pot" class="d-block" style="width:100%">
                     </div>
                     <div class="carousel-item">
-                        <img src="../images/Shop/shop_4.jpg" class="d-block w-100" alt="Black plunger pot">
+                        <img src="../images/Shop/shop_4.jpg" alt="Black plunger pot" class="d-flex" style="width:100%">
                     </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel_shop"
                     data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="carousel-control-prev-icon"></span>
                     <span class="visually-hidden">Previous</span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel_shop"
                     data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="carousel-control-next-icon"></span>
                     <span class="visually-hidden">Next</span>
                 </button>
             </div>
-
         </div>
-
-        
-
-
-
 
 
 
