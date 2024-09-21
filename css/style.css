@@ -332,11 +332,12 @@ ul, li {
   font-weight: bolder;
 }
 
-#sales-accordion .accordion .fix-item2 {
-  width: 95%;
+.fix-item2 {
+  width: 100%;
   background-color: rgb(230, 230, 230);
 }
-#sales-accordion .accordion .fix-img2 img {
+
+.fix-img2 {
   width: 100%;
   object-fit: cover;
 }
