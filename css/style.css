@@ -85,6 +85,7 @@ ul, li {
     object-fit: cover;
   }
 }
+/*################ Combo Deals ################*/
 /*################## Footer################ */
 @media screen and (max-width: 992px) {
   #footer__footer {
@@ -314,6 +315,27 @@ ul, li {
   height: 100%;
   object-fit: cover;
   border-radius: 9px;
+}
+
+#main-comboDeals {
+  color: white;
+  background-color: rgb(39, 23, 23);
+  min-height: 400px;
+}
+
+.main-combo_title {
+  color: white;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.fix-item2 {
+  max-width: 95%;
+  background-color: rgb(230, 230, 230);
+}
+
+.fix-img2 {
+  width: 100%;
 }
 
 #main_gallery {
