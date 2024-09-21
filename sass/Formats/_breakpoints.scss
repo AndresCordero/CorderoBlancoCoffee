@@ -15,7 +15,7 @@
         .main-index_image {
             display: flex;
             justify-content: center;
-        
+
             img {
                 width: 97% !important;
                 margin-bottom: 40px;
@@ -49,6 +49,7 @@
                 margin-top: 4%;
                 width: 90%
             }
+
             .new_1,
             .new_2,
             .new_3 {
@@ -64,21 +65,47 @@
 
 /*################ Shop ################*/
 
+
+
 @media screen and (max-width: 992px) {
 
-    #main_shop {
-    #carousel_shop {
-        width: 100%;
-        height: 400px;
-        max-height: 400px;
-        justify-content: center;
-        margin-bottom: 100px;
-            .carousel-item {
-                img {height: 100%; object-fit: cover;}
+    #main-shop {
+        .fix-item {
+            height: 600px;
+        }
+
+        .fix-image {
+            height: 100%;
+            object-fit: cover;
+        }
     }
-    } 
 }
+
+
+@media screen and (max-width: 767px) {
+
+
+    #main-shop {
+        .main-shop_title {
+            padding-bottom: 30px;
+        
+        }
+        .fix-item {
+            height: 300px;
+        }
+
+        .fix-image {
+            height: 100%;
+            object-fit: cover;
+        }
+    }
 }
+
+
+
+
+
+
 
 /*################## Footer################ */
 
