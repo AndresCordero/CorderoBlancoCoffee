@@ -9,7 +9,8 @@
             color: white;
             font-weight: bold;
             text-align: center;
-            margin-top: 40px;
+            margin-top: 5px;
+
         }
 
         .main-index_image {
@@ -18,26 +19,29 @@
 
             img {
                 width: 97% !important;
-                margin-bottom: 40px;
+
                 object-fit: fill;
                 margin-top: 40px !important;
             }
         }
 
-        .main-index_news {
-            display: flex;
-            justify-content: center;
-            color: white;
-            font-weight: bolder;
-            margin-top: 15px;
-        }
+        .news.title { font-size: 60px;
+            h1 {
+                padding: none;
+            }
+        }    
 
         .news-section {
             display: flex;
             justify-content: center;
             flex-direction: column;
-            margin-top: 40px;
-            font-size: small;
+            margin-top: 5px;
+            text-align: center;
+
+        
+            .lorem-news {
+                font-size: 15px;
+            }
 
             img {
                 border-radius: 4%;
@@ -49,7 +53,6 @@
                 color: white;
                 margin-top: 4%;
                 width: 90%
-                
             }
 
             .new_1,
@@ -133,7 +136,7 @@
                 padding: 8px 0 8px;
                 border-radius: 3%;
                 width: 100%;
-                
+
             }
 
             .img1 {
