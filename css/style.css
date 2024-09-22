@@ -103,8 +103,8 @@ ul, li {
   #main_gallery #galery .item-gallery {
     grid-column: 1;
     object-fit: cover;
-    padding: 5px;
-    border-radius: 5px;
+    padding: 8px 0 8px;
+    border-radius: 3%;
     width: 100%;
   }
   #main_gallery #galery .img1 {
