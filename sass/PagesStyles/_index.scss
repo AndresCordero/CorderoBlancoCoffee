@@ -26,14 +26,12 @@
             }
             
     }
-}
 
 .main-index_news {color: white; font-weight: bolder; margin-top: 125px}
 .news-section {
     @include center;
     margin-top: 80px;
     align-items: flex-start;
-        
         img {
             border-radius: 4%; width: 90% }
         h3 {
@@ -45,5 +43,5 @@
             margin-bottom: 100px;}
 }
 
-
+}
 

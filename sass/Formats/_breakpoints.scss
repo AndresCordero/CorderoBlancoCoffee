@@ -1,6 +1,6 @@
 /* ########## INDEX ########## */
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 767px) {
 
     #main-index {
         .main-index_title {
@@ -37,6 +37,7 @@
             justify-content: center;
             flex-direction: column;
             margin-top: 40px;
+            font-size: small;
 
             img {
                 border-radius: 4%;
@@ -48,6 +49,7 @@
                 color: white;
                 margin-top: 4%;
                 width: 90%
+                
             }
 
             .new_1,
