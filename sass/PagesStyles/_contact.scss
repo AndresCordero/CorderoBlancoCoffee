@@ -35,33 +35,35 @@
             flex-direction: column;
             justify-content: center;
 
-
             .map {
                 justify-content: center;
                 width: 50%;
-            }
+                margin-left: 20px;
 
+                .map_description {
+                    width: 185%;
+                    display: flex;
+                    justify-content: center;
+                    color: white;
+                    text-align: justify;
+                    padding-top: 10px;
 
-            .map_description {
-                width: 100%;
-                Display: flex;
-                justify-content: center;
-                color: white;
-                text-align: justify;
+                }
             }
         }
-
 
         .contact-form {
             width: 50%;
+            justify-content: center;
 
             .contact-form_form {
                 justify-content: center;
-            h2 {
-                color: white;
-                font-size: 25px;
+
+                h2 {
+                    color: white;
+                    font-size: 25px;
+                }
             }
-        }
 
             .form_input {
                 margin-bottom: 20px;
@@ -73,17 +75,16 @@
 
             textarea {
                 resize: none;
-                font-size: 28px;
+                font-size: 15px;
                 width: 600px;
-                height: 258px;
+                height: 200px;
+                margin-bottom: 20px;
             }
 
+            .btn {
+                text-decoration: none;
+            }
         }
-
     }
-
-
-
-
 
 }
