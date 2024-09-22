@@ -7,7 +7,6 @@
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-
     <link rel="icon" href="../icons/coffee_been.ico">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
@@ -17,14 +16,14 @@
         href="https://fonts.googleapis.com/css2?family=Amaranth:ital,wght@0,400;0,700;1,400;1,700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
         rel="stylesheet">
 
-    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../css/style.css">
     <title> Cordero Blanco Coffee</title>
 </head>
 
 <!--###############################  HEADER  ########################################-->
 
 <body>
-    <header id="header"></header>
+    <header id="header">
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
                 <a class="navbar-brand" href="../index.html">
@@ -40,16 +39,16 @@
                             <a class="nav-link" aria-current="page" href="../index.html">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="pages/shop.html">Shop</a>
+                            <a class="nav-link" href="../pages/shop.html">Shop</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="pages/combo_deals.html">Combo Deals</a>
+                            <a class="nav-link" href="../pages/combo_deals.html">Combo Deals</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="know_our_farm.html">Know our Farm</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="pages/contact.html">Contact</a>
+                            <a class="nav-link" href="../pages/contact.html">Contact</a>
                         </li>
                     </ul>
                     <form class="d-flex" role="search">
@@ -61,17 +60,24 @@
         </nav>
     </header>
 
+
+
     <!--##############################  MAIN  ########################################-->
 
     <main id="main_gallery">
-        <section id="galery">
-            <img class="img1" src="../images/Gallery/Image_1.jpg" alt="coffee visit">
-            <img class="img2" src="../images/Gallery/Image_2.jpg" alt="green beans">
-            <img class="img3" src="../images/Gallery/Image_3.jpg" alt="coffee worker">
-            <img class="img4" src="../images/Gallery/image_4.jpg" alt="coffe packing">
-            <img class="img5" src="../images/Gallery/image_5.jpg" alt="house at farm">
-            <img class="img6" src="../images/Gallery/image_6.jpg" alt="house at farm">
-        </section>
+
+        <div class="container">
+            <h1 class="main-gallery_title">Our family</h1>
+            <section id="galery">
+                
+                <img class="img2 item-gallery" src="../images/Gallery/Image_2.jpg" alt="green beans">
+                <img class="img1 item-gallery" src="../images/Gallery/Image_1.jpg" alt="coffee visit">
+                <img class="img3 item-gallery" src="../images/Gallery/Image_3.jpg" alt="coffee worker">
+                <img class="img4 item-gallery" src="../images/Gallery/image_4.jpg" alt="coffe packing">
+                <img class="img5 item-gallery" src="../images/Gallery/image_5.jpg" alt="house at farm">
+                <img class="img6 item-gallery" src="../images/Gallery/image_6.jpg" alt="house at farm">
+            </section>
+        </div>
     </main>
 
     <!--##############################  FOOTER  ###########################################-->
@@ -100,4 +106,5 @@
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
 </body>
+
 </html>

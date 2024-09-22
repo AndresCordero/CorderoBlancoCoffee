@@ -102,15 +102,68 @@
     }
 }
 
-/*################ Combo Deals ################*/
+/*################ Gallery################*/
 
-/* @media screen and (max-width: 767px) {
+@media screen and (max-width: 767px) {
 
-} */
+    #main_gallery {
+        display: flex;
+        flex-direction: column;
+
+
+        .container {
+            h1 {
+                padding-top: 30px;
+            }
+        }
+
+
+
+        #galery {
+            margin-top: 40px;
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: repeat(7, 1fr);
+
+            .item-gallery {
+                grid-column:1; object-fit: cover;
+                padding: 5px; border-radius: 5px; width: 100%;
+            }
+            .img1 {
+                grid-row: 0/1;
+            }
+
+            .img2 {
+                grid-row: 2/3;
+            }
+
+            .img3 {
+                grid-row: 3/5;
+            }
+
+            .img4 {
+                grid-row: 5/6;
+            }
+
+            .img5 {
+                grid-row: 6/7;
+            }
+
+            .img6 {
+                grid-row: 7/8;
+            }
+        }
+    }
+
+}
+
+
+
+
 
 /*################## Footer################ */
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 767px) {
     #footer__footer {
         flex-direction: column;
         justify-content: center;
@@ -137,76 +190,4 @@
             text-align: center;
         }
     }
-}
-
-@media screen and (max-width: 992px) {
-    #main_gallery {
-        display: flex;
-        justify-content: center;
-        background-color: rgb(39, 23, 23);
-        width: 100%;
-        height: auto;
-    }
-
-    #galery {
-        display: grid;
-        width: 100%;
-        height: 100%;
-        margin: 200px 0 200px;
-        grid-template-columns: 1fr;
-        grid-template-rows: 10fr;
-    }
-
-    #galery img {
-        padding-top: 20px;
-    }
-
-    #galery .img1 {
-        grid-column: 1/2;
-        grid-row: 1/2;
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-    }
-
-    #galery .img2 {
-        grid-column: 1/2;
-        grid-row: 2/3;
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-    }
-
-    #galery .img3 {
-        grid-column: 1/2;
-        grid-row: 3/5;
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-    }
-
-    #galery .img4 {
-        grid-column: 1/2;
-        grid-row: 5/6;
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-    }
-
-    #galery .img5 {
-        grid-column: 1/2;
-        grid-row: 7/8;
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-    }
-
-    #galery .img6 {
-        grid-column: 1/2;
-        grid-row: 6/7;
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-    }
-
 }
