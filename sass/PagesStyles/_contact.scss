@@ -25,11 +25,10 @@
             flex-direction: column;
 
             .map {
-                width: 100%;
-
-                iframe {
-                    margin-left: 50px;
+                max-width: 100%;
+                .map-map {
                     width: 100%;
+                    padding-left: 8%;
                     border-radius: 5px;
                 }
 
@@ -37,7 +36,7 @@
                     width: 100%;
                     color: white;
                     text-align: justify;
-                    padding: 10px 30px;
+                    padding-left: 8%;
                 }
             }
         }

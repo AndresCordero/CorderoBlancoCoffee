@@ -128,6 +128,7 @@ ul, li {
     grid-row: 7/8;
   }
 }
+/*############## Contact ################*/
 /*################## Footer################ */
 @media screen and (max-width: 767px) {
   #footer__footer {
@@ -402,18 +403,18 @@ ul, li {
   flex-direction: column;
 }
 #main-contact .contact_content .contact_map .map {
-  width: 100%;
+  max-width: 100%;
 }
-#main-contact .contact_content .contact_map .map iframe {
-  margin-left: 50px;
+#main-contact .contact_content .contact_map .map .map-map {
   width: 100%;
+  padding-left: 8%;
   border-radius: 5px;
 }
 #main-contact .contact_content .contact_map .map .map_description {
   width: 100%;
   color: white;
   text-align: justify;
-  padding: 10px 30px;
+  padding-left: 8%;
 }
 #main-contact .contact_content .contact-form {
   width: 50%;
