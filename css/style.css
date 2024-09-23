@@ -130,11 +130,30 @@ ul, li {
 }
 /*############## Contact ################*/
 @media screen and (max-width: 767px) {
+  #main-contact #title-contact h1 {
+    margin-bottom: 1px;
+  }
   #main-contact #contact_content {
     flex-direction: column;
   }
   #main-contact #contact_content .contact_map {
-    width: 100%;
+    width: 100% !important;
+  }
+  #main-contact #contact_content .contact_map .map-map {
+    padding: 5px !important;
+  }
+  #main-contact #contact_content .contact_map .map_description {
+    padding: 5px !important;
+  }
+  #main-contact #contact-form {
+    width: 100% !important;
+    text-align: center !important;
+    padding: 0 0 0 0 !important;
+  }
+  #main-contact #contact-form button {
+    display: grid;
+    justify-content: center;
+    column-gap: normal;
   }
 }
 /*################## Footer################ */
@@ -395,7 +414,7 @@ ul, li {
   display: flex;
   flex-direction: column;
 }
-#main-contact .title-contact h1 {
+#main-contact #title-contact h1 {
   color: white;
   font-size: 45px;
   margin: 100px 0 100px;
