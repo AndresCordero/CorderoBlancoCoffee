@@ -175,8 +175,9 @@
     #main-contact {
         #title-contact {
             h1 {
-            margin-bottom: 1px;
-        }}
+                margin-bottom: 1px;
+            }
+        }
 
         #contact_content {
             flex-direction: column;
@@ -193,20 +194,20 @@
                 }
             }
         }
-        #contact-form{
-            width: 100% !important; text-align: center !important;
+
+        #contact-form {
+            width: 100% !important;
+            text-align: center !important;
             padding: 0 0 0 0 !important;
 
 
             button {
-                display: grid; justify-content: center; column-gap: normal;
+                display: grid;
+                justify-content: center;
+                column-gap: normal;
             }
         }
     }
-
-
-
-
 }
 
 

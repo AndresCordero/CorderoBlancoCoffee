@@ -230,6 +230,16 @@ ul, li {
   text-decoration: none;
   color: black;
 }
+#footer__footer .footer__nav .ul__footer li {
+  transition: 0.5s;
+}
+#footer__footer .footer__nav .ul__footer li:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+  background-color: rgba(29, 28, 28, 0.11);
+  transition: 0.5s;
+  border-radius: 5px;
+}
 #footer__footer .footer__social {
   display: flex;
   width: 30%;
@@ -462,12 +472,21 @@ ul, li {
   height: 30px;
   border-radius: 5px;
 }
+#main-contact #contact_content #contact-form .form_input:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+  transition: 0.5s;
+}
 #main-contact #contact_content #contact-form textarea {
   width: 83%;
   height: 100px;
   border-radius: 5px;
   resize: none;
   margin-bottom: 10px;
+}
+#main-contact #contact_content #contact-form textarea:hover {
+  transform: translateY(-2px);
+  transition: 0.5s;
 }
 #main-contact #contact_content #contact-form button {
   transition: all ease-in-out 300ms;
