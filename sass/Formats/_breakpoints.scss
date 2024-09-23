@@ -166,12 +166,23 @@
             }
         }
     }
-
 }
-
 
 /*############## Contact ################*/
 
+
+@media screen and (max-width: 767px) { 
+    #main-contact {
+        #contact_content {
+            flex-direction: column;
+
+            .contact_map {
+                width: 100%;}
+        }
+    }
+
+
+}
 
 /*################## Footer################ */
 

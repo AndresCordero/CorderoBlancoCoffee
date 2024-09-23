@@ -16,7 +16,7 @@
         }
     }
 
-    .contact_content {
+    #contact_content {
         display: flex;
         width: 100%;
 
@@ -42,7 +42,7 @@
         }
 
 
-        .contact-form {
+        #contact-form {
             width: 50%;
             flex-direction: column;
             justify-content: center;
