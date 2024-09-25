@@ -468,8 +468,8 @@ ul, li {
   text-align: center;
   margin-bottom: 0px;
   font-size: 15px;
-  width: 60%;
-  height: 30px;
+  width: 280px;
+  height: 35px;
   border-radius: 5px;
 }
 #main-contact #contact_content #contact-form .form_input:hover {
@@ -478,7 +478,7 @@ ul, li {
   transition: 0.5s;
 }
 #main-contact #contact_content #contact-form textarea {
-  width: 83%;
+  width: 350px;
   height: 100px;
   border-radius: 5px;
   resize: none;
