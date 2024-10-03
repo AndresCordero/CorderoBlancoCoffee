@@ -21,15 +21,6 @@ ul, li {
     text-align: center;
     margin-top: 5px;
   }
-  #main-index .main-index_image {
-    display: flex;
-    justify-content: center;
-  }
-  #main-index .main-index_image img {
-    width: 97% !important;
-    object-fit: fill;
-    margin-top: 40px !important;
-  }
   #main-index .news.title {
     font-size: 60px;
   }
@@ -260,18 +251,17 @@ ul, li {
   flex-direction: column;
   max-width: 1920px;
   display: flex;
+  /*   .main-index_image {
+        margin-bottom: 10px;
+            img {
+                width: 100%; border-radius: 20px;
+            }
+    } */
 }
 #main-index h1 {
   color: white;
   margin-top: 75px;
   font-weight: bolder;
-}
-#main-index .main-index_image {
-  margin-bottom: 10px;
-}
-#main-index .main-index_image img {
-  width: 100%;
-  border-radius: 20px;
 }
 
 #main-shop {
