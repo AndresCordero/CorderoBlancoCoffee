@@ -260,18 +260,20 @@ ul, li {
   flex-direction: column;
   max-width: 1920px;
   display: flex;
+  /*     .main-index_image {
+          @include center;
+          margin-bottom: 10px;
+              img {
+                  width: 95%;
+                  margin-top: 90px; border-radius: 3%;
+              }
+
+      } */
 }
 #main-index h1 {
   color: white;
   margin-top: 75px;
   font-weight: bolder;
-}
-#main-index .main-index_image {
-  margin-bottom: 10px;
-}
-#main-index .main-index_image img {
-  width: 100%;
-  border-radius: 20px;
 }
 #main-index .main-index_news {
   color: white;
@@ -496,4 +498,4 @@ ul, li {
   transition: 0.5s;
 }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=css.style.css.map */
