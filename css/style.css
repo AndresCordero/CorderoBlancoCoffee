@@ -273,36 +273,6 @@ ul, li {
   width: 100%;
   border-radius: 20px;
 }
-#main-index .main-index_news {
-  color: white;
-  font-weight: bolder;
-  margin-top: 125px;
-}
-#main-index .news-section {
-  display: flex;
-  width: 100%;
-  height: auto;
-  justify-content: center;
-  align-items: center;
-  margin-top: 80px;
-  align-items: flex-start;
-}
-#main-index .news-section img {
-  border-radius: 4%;
-  width: 90%;
-}
-#main-index .news-section h3 {
-  text-align: justify;
-  color: white;
-  margin-top: 4%;
-  width: 90%;
-}
-#main-index .news-section .new_1, #main-index .news-section .new_2, #main-index .news-section .new_3 {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  margin-bottom: 100px;
-}
 
 #main-shop {
   background-color: rgb(39, 23, 23);

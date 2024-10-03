@@ -23,20 +23,7 @@
             }
     }
 
-.main-index_news {color: white; font-weight: bolder; margin-top: 125px}
-.news-section {
-    @include center;
-    margin-top: 80px;
-    align-items: flex-start;
-        img {
-            border-radius: 4%; width: 90% }
-        h3 {
-            text-align: justify;
-            color: white; margin-top: 4%; width: 90%}
-        .new_1, .new_2, .new_3 {
-            display: flex; 
-            align-items: center; flex-direction: column;
-            margin-bottom: 100px;}
+
 }
-}
+
 
