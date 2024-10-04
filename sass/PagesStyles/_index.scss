@@ -7,23 +7,6 @@
     align-items: center;
 }
 
-#main-index {
-    background-color: $bg-color;
-    @include center;
-    flex-direction: column;
-    max-width: 1920px;
-    display: flex;
 
-    h1 {color: white; margin-top: 75px; font-weight: bolder;}
-
-  /*   .main-index_image {
-        margin-bottom: 10px;
-            img {
-                width: 100%; border-radius: 20px;
-            }
-    } */
-
-
-}
 
 

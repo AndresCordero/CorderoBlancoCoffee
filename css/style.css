@@ -12,50 +12,6 @@ ul, li {
 }
 
 /* ########## INDEX ########## */
-@media screen and (max-width: 767px) {
-  #main-index .main-index_title {
-    display: flex;
-    justify-content: center;
-    color: white;
-    font-weight: bold;
-    text-align: center;
-    margin-top: 5px;
-  }
-  #main-index .news.title {
-    font-size: 60px;
-  }
-  #main-index .news.title h1 {
-    padding: none;
-  }
-  #main-index .news-section {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    margin-top: 5px;
-    text-align: center;
-  }
-  #main-index .news-section .lorem-news {
-    font-size: 15px;
-  }
-  #main-index .news-section img {
-    border-radius: 4%;
-    width: 90%;
-  }
-  #main-index .news-section h3 {
-    text-align: justify;
-    color: white;
-    margin-top: 4%;
-    width: 90%;
-  }
-  #main-index .news-section .new_1,
-  #main-index .news-section .new_2,
-  #main-index .news-section .new_3 {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    margin-bottom: 30px;
-  }
-}
 /*################ Shop ################*/
 @media screen and (max-width: 992px) {
   #main-shop .fix-item {
@@ -239,29 +195,6 @@ ul, li {
 #footer__footer .footer__social a {
   font-size: 40px;
   margin: 0 3% 0 3%;
-}
-
-#main-index {
-  background-color: rgb(39, 23, 23);
-  display: flex;
-  width: 100%;
-  height: auto;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  max-width: 1920px;
-  display: flex;
-  /*   .main-index_image {
-        margin-bottom: 10px;
-            img {
-                width: 100%; border-radius: 20px;
-            }
-    } */
-}
-#main-index h1 {
-  color: white;
-  margin-top: 75px;
-  font-weight: bolder;
 }
 
 #main-shop {
